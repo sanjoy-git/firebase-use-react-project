@@ -1,6 +1,7 @@
 import React from 'react'
 import Register from './pages/register'
 import Login from './pages/Login'
+import Logout from './pages/Logout'
 
 export default function App() {
   return (
@@ -8,6 +9,8 @@ export default function App() {
       <Register/>
       <br /><br />
       <Login/>
+      <br /><br />
+      <Logout/>
     </div>
   )
 }
